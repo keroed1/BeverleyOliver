@@ -1,0 +1,127 @@
+#content{
+background-color: white !important;
+
+}
+
+body,header, nav{
+background-color: #000000 !important;
+margin-left:10% !important;
+margin-right:10% !important;
+}
+
+#header{
+height: 100px;
+margin-bottom: 20px;
+}
+#header a, #header a:hover, #header a:visited, #header a:active{
+text-decoration:none !important;
+}
+
+#header img{
+ margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+footer p{
+line-height: 5px;
+}
+
+#page-title{
+font-family: 'Roboto', title-font;
+font-weight: 500;
+color: #5d5d5d !important;
+text-align: left !important;
+font-size:30px !important;
+}
+
+hr { 
+display: block;
+margin-top: 10px !important;
+border-style: inset;
+border-color: #808080 !important;
+border-width: 2.5px !important;
+}
+
+footer{
+margin-top:20px !important;
+margin-bottom: 20px !important}
+
+#end-footnote{
+float:left;
+}
+#end-footnote p{
+color: white;
+}
+
+#footer-social{
+position: absolute;
+right: 0px;
+}
+
+.social-icon{
+height:45px;
+width:45px;
+}
+ 
+/*Carousel*/
+#home-carousel{
+height: 50%;
+width: 50%;
+margin: 40px auto 40px auto !important;
+}
+
+#Portrait{
+height:400px;
+width:300px;
+margin-bottom: 40px;
+}
+/* Gallery */
+#display_artwork{
+float:left;
+margin-bottom: 20px;
+width:30%;
+display:inline;
+}
+
+.artwork{
+width:70%;
+height:70%;
+}
+
+#blanket {
+background-color:#111;
+opacity: 0.65;
+filter:alpha(opacity=65);
+position:absolute;
+z-index: 9001;
+top:0px;
+left:0px;
+width:100%;
+}
+
+#popUpDiv {
+position:absolute;
+background-color:#eeeeee;
+width:100%;
+z-index: 9002;
+top:0px !important;
+left:0px !important;
+}
+
+#item{
+float: left;
+    width: 120px;
+    margin: 20px 0 15px 20px;
+    padding: 15px;
+}
+
+#popUpDiv a{
+float:right;
+}
+
+.form{
+margin-bottom:20px;
+margin-top:20px;
+}
